@@ -95,12 +95,12 @@
 }
 
 % logo
-% \newlength{\logoleftwidth}
-% \setlength{\logoleftwidth}{0cm}
-% \newlength{\logorightwidth}
-% \setlength{\logorightwidth}{0cm}
-% \newlength{\maxlogowidth}  % space on both sides set to maxlogowidth to keep title centered
-% \setlength{\maxlogowidth}{0cm}
+\newlength{\logoleftwidth}
+\setlength{\logoleftwidth}{0cm}
+\newlength{\logorightwidth}
+\setlength{\logorightwidth}{0cm}
+\newlength{\maxlogowidth}  % space on both sides set to maxlogowidth to keep title centered
+\setlength{\maxlogowidth}{0cm}
 
 % \newcommand{\logoright}[1]{
 %   \newcommand{\insertlogoright}{#1}
@@ -117,64 +117,64 @@
 
 
 % Headline
-\setbeamertemplate{headline}
-{
-  \begin{beamercolorbox}{headline}
-    \begin{columns}
-      \begin{column}{\paperwidth}
-        \centering
-        \includegraphics[width=\paperwidth]{images/header_title.png}
-      \end{column}
-    \end{columns}
-  \end{beamercolorbox}
-}
-
-% Headline
 % \setbeamertemplate{headline}
 % {
 %   \begin{beamercolorbox}{headline}
 %     \begin{columns}
-%       \begin{column}{\maxlogowidth}
-%         \vskip5ex
-%         \ifdefined\insertlogoleft
-%         \vspace*{\fill}
-%         \hspace{10ex}
-%         \raggedright
-%         \insertlogoleft
-%         \vspace*{\fill}
-%         \else\fi
-%       \end{column}
-%       \begin{column}{\dimexpr\paperwidth-\maxlogowidth-\maxlogowidth}
-%         \usebeamerfont{headline}
-%         \vskip3ex
+%       \begin{column}{\paperwidth}
 %         \centering
-%         \ifx \inserttitle \empty \else
-%         {\usebeamerfont{headline title}\usebeamercolor[fg]{headline title}\inserttitle\\[0.5ex]}
-%         \fi
-%         \ifx \beamer@shortauthor \empty \else
-%         {\usebeamerfont{headline author}\usebeamercolor[fg]{headline author}\insertauthor\\[1ex]}
-%         \fi
-%         \ifx \insertinstitute \empty \else
-%         {\usebeamerfont{headline institute}\usebeamercolor[fg]{headline institute}\insertinstitute\\[1ex]}
-%         \fi
-%       \end{column}
-%       \begin{column}{\maxlogowidth}
-%         \vskip5ex
-%         \ifdefined\insertlogoright
-%         \vspace*{\fill}
-%         \raggedleft
-%         \insertlogoright
-%         \hspace{10ex}
-%         \vspace*{\fill}
-%         \else\fi
+%         \includegraphics[width=\paperwidth]{images/header_title.png}
 %       \end{column}
 %     \end{columns}
-%     \vspace{5ex}
-%     \ifbeamercolorempty[bg]{headline rule}{}{
-%       \begin{beamercolorbox}[wd=\paperwidth,colsep=0.5ex]{headline rule}\end{beamercolorbox}
-%     }
 %   \end{beamercolorbox}
 % }
+
+% Headline
+\setbeamertemplate{headline}
+{
+  \begin{beamercolorbox}{headline}
+    \begin{columns}
+      \begin{column}{\maxlogowidth}
+        \vskip5ex
+        \ifdefined\insertlogoleft
+        \vspace*{\fill}
+        \hspace{10ex}
+        \raggedright
+        \insertlogoleft
+        \vspace*{\fill}
+        \else\fi
+      \end{column}
+      \begin{column}{\dimexpr\paperwidth-\maxlogowidth-\maxlogowidth}
+        \usebeamerfont{headline}
+        \vskip3ex
+        \centering
+        \ifx \inserttitle \empty \else
+        {\usebeamerfont{headline title}\usebeamercolor[fg]{headline title}\inserttitle\\[0.5ex]}
+        \fi
+        \ifx \beamer@shortauthor \empty \else
+        {\usebeamerfont{headline author}\usebeamercolor[fg]{headline author}\insertauthor\\[1ex]}
+        \fi
+        \ifx \insertinstitute \empty \else
+        {\usebeamerfont{headline institute}\usebeamercolor[fg]{headline institute}\insertinstitute\\[1ex]}
+        \fi
+      \end{column}
+      \begin{column}{\maxlogowidth}
+        \vskip5ex
+        \ifdefined\insertlogoright
+        \vspace*{\fill}
+        \raggedleft
+        \insertlogoright
+        \hspace{10ex}
+        \vspace*{\fill}
+        \else\fi
+      \end{column}
+    \end{columns}
+    \vspace{5ex}
+    \ifbeamercolorempty[bg]{headline rule}{}{
+      \begin{beamercolorbox}[wd=\paperwidth,colsep=0.5ex]{headline rule}\end{beamercolorbox}
+    }
+  \end{beamercolorbox}
+}
 
 % Block
 \setbeamertemplate{block begin}
