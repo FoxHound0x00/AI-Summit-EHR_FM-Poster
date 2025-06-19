@@ -274,14 +274,36 @@
 %   \else\fi
 % }
 
+% \setbeamertemplate{footline}
+% {
+%   \begin{beamercolorbox}{footline}
+%     \begin{columns}
+%       \begin{column}{\paperwidth}
+%         \centering
+%         \includegraphics[width=\paperwidth]{images/footer.png}
+%       \end{column}
+%     \end{columns}
+%   \end{beamercolorbox}
+% }
+
 \setbeamertemplate{footline}
 {
   \begin{beamercolorbox}{footline}
     \begin{columns}
-      \begin{column}{\paperwidth}
-        \centering
-        \includegraphics[width=\paperwidth]{images/footer.png}
+      \begin{column}{0.6\paperwidth}
+        \raggedright
+        \hspace{2ex}
+        \includegraphics[height=3cm]{images/hmhi.png}
+        \hspace{1ex}
+        \includegraphics[height=3cm]{images/mtn.png}
+        \hspace{1ex}
+        \includegraphics[height=3cm]{images/ksoc.png}
+        \vspace{1ex}
+      \end{column}
+      \begin{column}{0.4\paperwidth}
+        % Empty space for the rest of the footer
       \end{column}
     \end{columns}
   \end{beamercolorbox}
 }
+

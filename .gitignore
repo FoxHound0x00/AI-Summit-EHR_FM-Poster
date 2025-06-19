@@ -1,0 +1,242 @@
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate documents
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Build tool directories
+**/auto/
+
+# beamer auxiliary files
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# changes auxiliary files
+*.soc
+
+# comment auxiliary files
+*.cmt
+
+# cprotect auxiliary files
+*.cpt
+
+# elsarticle auxiliary files
+*.spl
+
+# endnotes auxiliary files
+*.ent
+
+# fixme auxiliary files
+*.lox
+
+# feynmf/feynmp auxiliary files
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+# front-/back-matter auxiliary files
+*.ttt
+*.fff
+
+# gnuplottex auxiliary files
+*.gnuplot
+*.table
+
+# gnuplot auxiliary files
+*.figlist
+*.makefile
+*.listing
+
+# hypdoc auxiliary files
+*.hd
+
+# hyperref auxiliary files
+*.brf
+
+# knitr auxiliary files
+*-concordance.tex
+
+# listings auxiliary files
+*.lol
+
+# luatexja auxiliary files
+*.ltjruby
+
+# make4ht auxiliary files
+*.tmp
+*.lg
+*.idv
+*.xref
+
+# minted auxiliary files
+*.pyg
+_minted*
+
+# morewrites auxiliary files
+*.mw
+
+# nomenclature auxiliary files
+*.nlg
+*.nlo
+*.nls
+
+# pax auxiliary files
+*.pax
+
+# pdfpcnotes auxiliary files
+*.pdfpc
+
+# sagetex auxiliary files
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile auxiliary files
+*.wrt
+
+# sympy auxiliary files
+*.upa
+*.upb
+
+# TikZ & PGF auxiliary files
+*.auxlock
+*.eledsec[1-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9]S
+*.eledsec[1-9]R
+*.eledsec[1-9]S
+*.mk
+*.fignums
+*.makefile
+
+# xmpincl auxiliary files
+*.xmpi
+
+# xindy auxiliary files
+*.xdy
+
+# xypic auxiliary files
+*.xyc
+
+# endfloat auxiliary files
+*.ttt
+*.fff
+
+# Latexian temporary files
+TSWLatexianTemp*
+
+# todonotes auxiliary files
+*.tdo
+
+# easy-todo auxiliary files
+*.lod
+
+# xcolor auxiliary files
+*.xcp
+
+# xmpincl auxiliary files
+*.xmpi
+
+# xindy auxiliary files
+*.xdy
+
+# xypic auxiliary files
+*.xyc
+
+# endfloat auxiliary files
+*.ttt
+*.fff
+
+# Operating System Files
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editor and IDE files
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary directories
+tmp/
+temp/
+
+# Keep these important files:
+# *.pdf (all PDFs including compiled output)
+# *.tex (source files)
+# *.png, *.jpg, *.eps (figures)
+# *.bib (bibliography files)
+# *.cls, *.sty (style files) 
